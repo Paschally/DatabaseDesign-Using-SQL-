@@ -109,6 +109,7 @@ INSERT INTO banking (client_id, emp_var_rate, cons_price_idx, cons_conf_idx, eur
 	SELECT
     client_id, 
     emp_var_rate, 
+    cons_price_idx,
     cons_conf_idx,
     euribor3m, 
     nr_employed
